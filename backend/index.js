@@ -7,6 +7,6 @@ app.use(express.json());
 const userRoutes = require('./routes/userRoutes');
 app.use('/', userRoutes);
 
-app.listen(3000, () => {
-  console.log('Backend rodando na porta 3000');
+app.listen(4000, () => {
+  console.log('Backend rodando na porta 4000');
 });
